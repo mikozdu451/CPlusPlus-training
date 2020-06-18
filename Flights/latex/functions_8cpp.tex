@@ -1,0 +1,166 @@
+\hypertarget{functions_8cpp}{}\doxysection{functions.\+cpp File Reference}
+\label{functions_8cpp}\index{functions.cpp@{functions.cpp}}
+{\ttfamily \#include $<$list$>$}\newline
+{\ttfamily \#include $<$ostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}functions.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}structures.\+h\char`\"{}}\newline
+Include dependency graph for functions.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{functions_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{functions_8cpp_a1614f028c1fef258edfb81fb963609cb}{debug}}(x)~std\+::cerr $<$$<$ \char`\"{}(\char`\"{} $<$$<$ \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+ $<$$<$ \char`\"{}) \char`\"{} $<$$<$ \#x $<$$<$ \char`\"{} == \char`\"{} $<$$<$ (x) $<$$<$ std\+::endl
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{functions_8cpp_a5f94f2f9b4c2d9a584c4671f98c7abf6}{ltrim}} (const std\+::string \&s)
+\item 
+string \mbox{\hyperlink{functions_8cpp_ae5bb67dadf55c865f9f78e89f183d8bd}{rtrim}} (const std\+::string \&s)
+\item 
+string \mbox{\hyperlink{functions_8cpp_a113ec9c37ab9ea29f1883ca79f7b7344}{trim}} (const std\+::string \&s)
+\item 
+\mbox{\hyperlink{structticket}{ticket}} $\ast$ \mbox{\hyperlink{functions_8cpp_ae842ef2c2f509268257f018f99766a0a}{add\+Ticket}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$\&t, const string \&ID, const string \&ori, const string \&dist)
+\item 
+void \mbox{\hyperlink{functions_8cpp_a5256127b4f7cfb5fc6afc396be9e4dae}{insert\+Passenger}} (\mbox{\hyperlink{structpassenger}{passenger}} $\ast$\&pH, const string \&p, const int \&seat)
+\item 
+void \mbox{\hyperlink{functions_8cpp_ada19125070db8d3e5c425d5ebcc7a3f5}{add\+Passenger}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$\&t, const string \&ID, const string \&ori, const string \&dist, const string \&p, const int \&seat)
+\item 
+bool \mbox{\hyperlink{functions_8cpp_af07c382f77fbfb28d50972d3b9a75fc9}{datecheck}} (int y, int m, int d)
+\item 
+void \mbox{\hyperlink{functions_8cpp_aa0c7874c887ca9f3247e67b012a270c3}{read\+T\+E\+X\+Tfile}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$\&t, const string \&file\+\_\+name)
+\item 
+void \mbox{\hyperlink{functions_8cpp_a114b13cb8925c839b6005282033a9dbc}{print\+B\+Tree}} (\mbox{\hyperlink{structpassenger}{passenger}} $\ast$p\+IN, ofstream \&filename)
+\item 
+void \mbox{\hyperlink{functions_8cpp_a228092badf200350efcd26da5b7546ef}{make\+T\+X\+Tfile}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$t)
+\item 
+void \mbox{\hyperlink{functions_8cpp_a4236442059de50794fb84f025c9854e4}{delete\+Passenger}} (\mbox{\hyperlink{structpassenger}{passenger}} $\ast$\&p)
+\item 
+void \mbox{\hyperlink{functions_8cpp_a98ba2fe381db58bb4d57ae3a867a8774}{delete\+Ticket}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$\&t)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const string \mbox{\hyperlink{functions_8cpp_abc0a9e446e356d42c41c56b9525d3d7b}{W\+H\+I\+T\+E\+S\+P\+A\+CE}} = \char`\"{} \textbackslash{}n\textbackslash{}r\textbackslash{}t\textbackslash{}f\textbackslash{}v\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{functions_8cpp_a1614f028c1fef258edfb81fb963609cb}\label{functions_8cpp_a1614f028c1fef258edfb81fb963609cb}} 
+\index{functions.cpp@{functions.cpp}!debug@{debug}}
+\index{debug@{debug}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{debug}{debug}}
+{\footnotesize\ttfamily \#define debug(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})~std\+::cerr $<$$<$ \char`\"{}(\char`\"{} $<$$<$ \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+ $<$$<$ \char`\"{}) \char`\"{} $<$$<$ \#x $<$$<$ \char`\"{} == \char`\"{} $<$$<$ (x) $<$$<$ std\+::endl}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{functions_8cpp_ada19125070db8d3e5c425d5ebcc7a3f5}\label{functions_8cpp_ada19125070db8d3e5c425d5ebcc7a3f5}} 
+\index{functions.cpp@{functions.cpp}!addPassenger@{addPassenger}}
+\index{addPassenger@{addPassenger}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{addPassenger()}{addPassenger()}}
+{\footnotesize\ttfamily void add\+Passenger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$\&}]{t,  }\item[{const string \&}]{ID,  }\item[{const string \&}]{ori,  }\item[{const string \&}]{dist,  }\item[{const string \&}]{p,  }\item[{const int \&}]{seat }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_8cpp_ae842ef2c2f509268257f018f99766a0a}\label{functions_8cpp_ae842ef2c2f509268257f018f99766a0a}} 
+\index{functions.cpp@{functions.cpp}!addTicket@{addTicket}}
+\index{addTicket@{addTicket}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{addTicket()}{addTicket()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structticket}{ticket}}$\ast$ add\+Ticket (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$\&}]{t,  }\item[{const string \&}]{ID,  }\item[{const string \&}]{ori,  }\item[{const string \&}]{dist }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_8cpp_af07c382f77fbfb28d50972d3b9a75fc9}\label{functions_8cpp_af07c382f77fbfb28d50972d3b9a75fc9}} 
+\index{functions.cpp@{functions.cpp}!datecheck@{datecheck}}
+\index{datecheck@{datecheck}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{datecheck()}{datecheck()}}
+{\footnotesize\ttfamily bool datecheck (\begin{DoxyParamCaption}\item[{int}]{y,  }\item[{int}]{m,  }\item[{int}]{d }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_8cpp_a4236442059de50794fb84f025c9854e4}\label{functions_8cpp_a4236442059de50794fb84f025c9854e4}} 
+\index{functions.cpp@{functions.cpp}!deletePassenger@{deletePassenger}}
+\index{deletePassenger@{deletePassenger}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{deletePassenger()}{deletePassenger()}}
+{\footnotesize\ttfamily void delete\+Passenger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpassenger}{passenger}} $\ast$\&}]{p }\end{DoxyParamCaption})}
+
+The function deletes passengers from B\+Tree
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & pointer to address of passenger in B\+Tree \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{functions_8cpp_a98ba2fe381db58bb4d57ae3a867a8774}\label{functions_8cpp_a98ba2fe381db58bb4d57ae3a867a8774}} 
+\index{functions.cpp@{functions.cpp}!deleteTicket@{deleteTicket}}
+\index{deleteTicket@{deleteTicket}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{deleteTicket()}{deleteTicket()}}
+{\footnotesize\ttfamily void delete\+Ticket (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$\&}]{t }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & pointer to address of ticket in a list \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{functions_8cpp_a5256127b4f7cfb5fc6afc396be9e4dae}\label{functions_8cpp_a5256127b4f7cfb5fc6afc396be9e4dae}} 
+\index{functions.cpp@{functions.cpp}!insertPassenger@{insertPassenger}}
+\index{insertPassenger@{insertPassenger}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{insertPassenger()}{insertPassenger()}}
+{\footnotesize\ttfamily void insert\+Passenger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpassenger}{passenger}} $\ast$\&}]{pH,  }\item[{const string \&}]{p,  }\item[{const int \&}]{seat }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_8cpp_a5f94f2f9b4c2d9a584c4671f98c7abf6}\label{functions_8cpp_a5f94f2f9b4c2d9a584c4671f98c7abf6}} 
+\index{functions.cpp@{functions.cpp}!ltrim@{ltrim}}
+\index{ltrim@{ltrim}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{ltrim()}{ltrim()}}
+{\footnotesize\ttfamily string ltrim (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_8cpp_a228092badf200350efcd26da5b7546ef}\label{functions_8cpp_a228092badf200350efcd26da5b7546ef}} 
+\index{functions.cpp@{functions.cpp}!makeTXTfile@{makeTXTfile}}
+\index{makeTXTfile@{makeTXTfile}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{makeTXTfile()}{makeTXTfile()}}
+{\footnotesize\ttfamily void make\+T\+X\+Tfile (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$}]{t }\end{DoxyParamCaption})}
+
+The function makes output file using ticket
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & pointer to adress of the list of tickets \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{functions_8cpp_a114b13cb8925c839b6005282033a9dbc}\label{functions_8cpp_a114b13cb8925c839b6005282033a9dbc}} 
+\index{functions.cpp@{functions.cpp}!printBTree@{printBTree}}
+\index{printBTree@{printBTree}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{printBTree()}{printBTree()}}
+{\footnotesize\ttfamily void print\+B\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpassenger}{passenger}} $\ast$}]{p\+IN,  }\item[{ofstream \&}]{filename }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_8cpp_aa0c7874c887ca9f3247e67b012a270c3}\label{functions_8cpp_aa0c7874c887ca9f3247e67b012a270c3}} 
+\index{functions.cpp@{functions.cpp}!readTEXTfile@{readTEXTfile}}
+\index{readTEXTfile@{readTEXTfile}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{readTEXTfile()}{readTEXTfile()}}
+{\footnotesize\ttfamily void read\+T\+E\+X\+Tfile (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$\&}]{t,  }\item[{const string \&}]{file\+\_\+name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_8cpp_ae5bb67dadf55c865f9f78e89f183d8bd}\label{functions_8cpp_ae5bb67dadf55c865f9f78e89f183d8bd}} 
+\index{functions.cpp@{functions.cpp}!rtrim@{rtrim}}
+\index{rtrim@{rtrim}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{rtrim()}{rtrim()}}
+{\footnotesize\ttfamily string rtrim (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_8cpp_a113ec9c37ab9ea29f1883ca79f7b7344}\label{functions_8cpp_a113ec9c37ab9ea29f1883ca79f7b7344}} 
+\index{functions.cpp@{functions.cpp}!trim@{trim}}
+\index{trim@{trim}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{trim()}{trim()}}
+{\footnotesize\ttfamily string trim (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{functions_8cpp_abc0a9e446e356d42c41c56b9525d3d7b}\label{functions_8cpp_abc0a9e446e356d42c41c56b9525d3d7b}} 
+\index{functions.cpp@{functions.cpp}!WHITESPACE@{WHITESPACE}}
+\index{WHITESPACE@{WHITESPACE}!functions.cpp@{functions.cpp}}
+\doxysubsubsection{\texorpdfstring{WHITESPACE}{WHITESPACE}}
+{\footnotesize\ttfamily const string W\+H\+I\+T\+E\+S\+P\+A\+CE = \char`\"{} \textbackslash{}n\textbackslash{}r\textbackslash{}t\textbackslash{}f\textbackslash{}v\char`\"{}}
+

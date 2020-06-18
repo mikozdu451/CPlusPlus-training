@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="untitled2" targetName="untitled2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b34009c4-0adf-4c2f-9126-93f7ba64da2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled2.cbp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1XH3hYWVtKmZjGbKL2Zv8PddvQC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
+  </component>
+  <component name="RunManager">
+    <configuration name="untitled2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-t flights.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled2" TARGET_NAME="untitled2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled2" RUN_TARGET_NAME="untitled2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b34009c4-0adf-4c2f-9126-93f7ba64da2e" name="Default Changelist" comment="" />
+      <created>1580689312808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580689312808</updated>
+      <workItem from="1580689315294" duration="2552000" />
+      <workItem from="1580726941854" duration="2351000" />
+      <workItem from="1580730215369" duration="128000" />
+      <workItem from="1580730438880" duration="1496000" />
+      <workItem from="1580733505539" duration="5000" />
+      <workItem from="1580733707779" duration="1414000" />
+      <workItem from="1580735651768" duration="100000" />
+      <workItem from="1580735996326" duration="5000" />
+      <workItem from="1580751691907" duration="511000" />
+      <workItem from="1580762558276" duration="1901000" />
+      <workItem from="1580765230125" duration="862000" />
+      <workItem from="1580770828394" duration="47000" />
+      <workItem from="1580773007883" duration="598000" />
+      <workItem from="1580776753476" duration="22000" />
+      <workItem from="1580817393948" duration="509000" />
+      <workItem from="1580817935673" duration="655000" />
+      <workItem from="1580833549673" duration="440000" />
+      <workItem from="1580841703881" duration="1311000" />
+      <workItem from="1580849578089" duration="3718000" />
+      <workItem from="1580891876398" duration="14000" />
+      <workItem from="1581458836308" duration="651000" />
+      <workItem from="1581635268537" duration="60000" />
+      <workItem from="1582635383898" duration="104000" />
+      <workItem from="1582635504410" duration="745000" />
+      <workItem from="1582812947776" duration="31000" />
+      <workItem from="1582813242981" duration="101000" />
+      <workItem from="1582813487262" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580690813825">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="414" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1580690813825" />
+    <state x="740" y="315" key="FileChooserDialogImpl" timestamp="1580690192078">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="740" y="315" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1580690192078" />
+    <state width="1877" height="109" key="GridCell.Tab.0.bottom" timestamp="1580854146329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580854146329" />
+    <state width="1877" height="147" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1580729294473" />
+    <state width="1877" height="109" key="GridCell.Tab.0.center" timestamp="1580854146329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="109" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580854146329" />
+    <state width="1877" height="147" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1580729294472" />
+    <state width="1877" height="109" key="GridCell.Tab.0.left" timestamp="1580854146329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="109" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580854146329" />
+    <state width="1877" height="147" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1580729294472" />
+    <state width="1877" height="109" key="GridCell.Tab.0.right" timestamp="1580854146329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="109" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580854146329" />
+    <state width="1877" height="147" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1580729294473" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1582635477465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582635477465" />
+    <state x="461" y="203" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1580690192851" />
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1580726949976">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="656" y="385" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1580726949976" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1580818517039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580818517039" />
+  </component>
+</project>

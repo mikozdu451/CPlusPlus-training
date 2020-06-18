@@ -1,0 +1,153 @@
+\hypertarget{functions_8h}{}\doxysection{functions.\+h File Reference}
+\label{functions_8h}\index{functions.h@{functions.h}}
+{\ttfamily \#include \char`\"{}structures.\+h\char`\"{}}\newline
+Include dependency graph for functions.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=148pt]{functions_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{functions_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structticket}{ticket}} $\ast$ \mbox{\hyperlink{functions_8h_aa62fbe9540992c4a1b493b0442bd5070}{add\+Ticket}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$\&t, const std\+::string \&ID, const std\+::string \&ori, const std\+::string \&dist)
+\item 
+void \mbox{\hyperlink{functions_8h_aba6fb89df0ff521c0f4a243355cabe7f}{read\+T\+E\+X\+Tfile}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$\&t, const std\+::string \&file\+\_\+name)
+\item 
+void \mbox{\hyperlink{functions_8h_aeb4aabd03116c9d2b594205502f821b4}{add\+Passenger}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$\&t, const std\+::string \&ID, const std\+::string \&ori, const std\+::string \&dist, const std\+::string \&p, const int \&seat)
+\item 
+void \mbox{\hyperlink{functions_8h_aa602426d70092a96367a715008b18349}{insert\+Passenger}} (\mbox{\hyperlink{structpassenger}{passenger}} $\ast$\&pH, const std\+::string \&p, const int \&seat)
+\item 
+void \mbox{\hyperlink{functions_8h_a228092badf200350efcd26da5b7546ef}{make\+T\+X\+Tfile}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$t)
+\item 
+void \mbox{\hyperlink{functions_8h_a4236442059de50794fb84f025c9854e4}{delete\+Passenger}} (\mbox{\hyperlink{structpassenger}{passenger}} $\ast$\&p)
+\item 
+void \mbox{\hyperlink{functions_8h_a98ba2fe381db58bb4d57ae3a867a8774}{delete\+Ticket}} (\mbox{\hyperlink{structticket}{ticket}} $\ast$\&t)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{functions_8h_aeb4aabd03116c9d2b594205502f821b4}\label{functions_8h_aeb4aabd03116c9d2b594205502f821b4}} 
+\index{functions.h@{functions.h}!addPassenger@{addPassenger}}
+\index{addPassenger@{addPassenger}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{addPassenger()}{addPassenger()}}
+{\footnotesize\ttfamily void add\+Passenger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$\&}]{t,  }\item[{const std\+::string \&}]{ID,  }\item[{const std\+::string \&}]{ori,  }\item[{const std\+::string \&}]{dist,  }\item[{const std\+::string \&}]{p,  }\item[{const int \&}]{seat }\end{DoxyParamCaption})}
+
+The function searches for proper ticket and calls isert\+Passegenr function
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & pointer to address of the list of the tickets \\
+\hline
+{\em ID} & address of the ID of the flight from the pointer towards the list \\
+\hline
+{\em ori} & address of the origin of the flight from the pointer towards the list \\
+\hline
+{\em date} & address of the date of the flight from the pointer towards the list \\
+\hline
+{\em p} & address of the the passenger of the flight from the pointer towards the list \\
+\hline
+{\em seat} & address of the seat of the passenger from the pointer towards the list \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{functions_8h_aa62fbe9540992c4a1b493b0442bd5070}\label{functions_8h_aa62fbe9540992c4a1b493b0442bd5070}} 
+\index{functions.h@{functions.h}!addTicket@{addTicket}}
+\index{addTicket@{addTicket}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{addTicket()}{addTicket()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structticket}{ticket}}$\ast$ add\+Ticket (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$\&}]{t,  }\item[{const std\+::string \&}]{ID,  }\item[{const std\+::string \&}]{ori,  }\item[{const std\+::string \&}]{dist }\end{DoxyParamCaption})}
+
+The functions creates a new ticket singly linked list passed on the input from the txt file
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & pointer to adress of the list of the tickets \\
+\hline
+{\em ID} & input ID of the flight from the txt file \\
+\hline
+{\em ori} & origin of the flight from the txt file \\
+\hline
+{\em date} & date of the flight from the txt file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+next ticket in a list 
+\end{DoxyReturn}
+\mbox{\Hypertarget{functions_8h_a4236442059de50794fb84f025c9854e4}\label{functions_8h_a4236442059de50794fb84f025c9854e4}} 
+\index{functions.h@{functions.h}!deletePassenger@{deletePassenger}}
+\index{deletePassenger@{deletePassenger}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{deletePassenger()}{deletePassenger()}}
+{\footnotesize\ttfamily void delete\+Passenger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpassenger}{passenger}} $\ast$\&}]{p }\end{DoxyParamCaption})}
+
+The function deletes passengers from B\+Tree
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & pointer to address of passenger in B\+Tree \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{functions_8h_a98ba2fe381db58bb4d57ae3a867a8774}\label{functions_8h_a98ba2fe381db58bb4d57ae3a867a8774}} 
+\index{functions.h@{functions.h}!deleteTicket@{deleteTicket}}
+\index{deleteTicket@{deleteTicket}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{deleteTicket()}{deleteTicket()}}
+{\footnotesize\ttfamily void delete\+Ticket (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$\&}]{t }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & pointer to address of ticket in a list \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{functions_8h_aa602426d70092a96367a715008b18349}\label{functions_8h_aa602426d70092a96367a715008b18349}} 
+\index{functions.h@{functions.h}!insertPassenger@{insertPassenger}}
+\index{insertPassenger@{insertPassenger}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{insertPassenger()}{insertPassenger()}}
+{\footnotesize\ttfamily void insert\+Passenger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpassenger}{passenger}} $\ast$\&}]{pH,  }\item[{const std\+::string \&}]{p,  }\item[{const int \&}]{seat }\end{DoxyParamCaption})}
+
+The function insets passenger to ticket
+
+
+\begin{DoxyParams}{Parameters}
+{\em pH} & pointer to adress to the B\+Tree of the passengers \\
+\hline
+{\em p} & address of the name of the passenger \\
+\hline
+{\em seat} & address of the seat of the passenger \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{functions_8h_a228092badf200350efcd26da5b7546ef}\label{functions_8h_a228092badf200350efcd26da5b7546ef}} 
+\index{functions.h@{functions.h}!makeTXTfile@{makeTXTfile}}
+\index{makeTXTfile@{makeTXTfile}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{makeTXTfile()}{makeTXTfile()}}
+{\footnotesize\ttfamily void make\+T\+X\+Tfile (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$}]{t }\end{DoxyParamCaption})}
+
+The function makes output file using ticket
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & pointer to adress of the list of tickets \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{functions_8h_aba6fb89df0ff521c0f4a243355cabe7f}\label{functions_8h_aba6fb89df0ff521c0f4a243355cabe7f}} 
+\index{functions.h@{functions.h}!readTEXTfile@{readTEXTfile}}
+\index{readTEXTfile@{readTEXTfile}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{readTEXTfile()}{readTEXTfile()}}
+{\footnotesize\ttfamily void read\+T\+E\+X\+Tfile (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structticket}{ticket}} $\ast$\&}]{t,  }\item[{const std\+::string \&}]{file\+\_\+name }\end{DoxyParamCaption})}
+
+The function reads input file and calls add\+Ticket function
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & pointer to address of the list of the tickets \\
+\hline
+{\em file\+\_\+name} & name of the file to be read \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,4 @@
+<map id="ticket" name="ticket">
+<area shape="rect" id="node1" title="&lt;Ticket structure" alt="" coords="19,97,74,124"/>
+<area shape="rect" id="node2" href="$structpassenger.html" title="&lt;Passenger structure" alt="" coords="5,7,88,33"/>
+</map>

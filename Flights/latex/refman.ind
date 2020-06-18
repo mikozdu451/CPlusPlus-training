@@ -1,0 +1,137 @@
+\begin{theindex}
+
+  \item {addPassenger}
+    \subitem {functions.cpp}, \hyperpage{12}
+    \subitem {functions.h}, \hyperpage{16}
+  \item {addTicket}
+    \subitem {functions.cpp}, \hyperpage{12}
+    \subitem {functions.h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {CMakeLists.txt}, \hyperpage{11}
+
+  \indexspace
+
+  \item {date}
+    \subitem {ticket}, \hyperpage{9}
+  \item {datecheck}
+    \subitem {functions.cpp}, \hyperpage{13}
+  \item {debug}
+    \subitem {functions.cpp}, \hyperpage{12}
+  \item {deletePassenger}
+    \subitem {functions.cpp}, \hyperpage{13}
+    \subitem {functions.h}, \hyperpage{17}
+  \item {deleteTicket}
+    \subitem {functions.cpp}, \hyperpage{13}
+    \subitem {functions.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {flightID}
+    \subitem {ticket}, \hyperpage{9}
+  \item {flights.txt}, \hyperpage{11}
+  \item {functions.cpp}, \hyperpage{11}
+    \subitem {addPassenger}, \hyperpage{12}
+    \subitem {addTicket}, \hyperpage{12}
+    \subitem {datecheck}, \hyperpage{13}
+    \subitem {debug}, \hyperpage{12}
+    \subitem {deletePassenger}, \hyperpage{13}
+    \subitem {deleteTicket}, \hyperpage{13}
+    \subitem {insertPassenger}, \hyperpage{13}
+    \subitem {ltrim}, \hyperpage{14}
+    \subitem {makeTXTfile}, \hyperpage{14}
+    \subitem {printBTree}, \hyperpage{14}
+    \subitem {readTEXTfile}, \hyperpage{14}
+    \subitem {rtrim}, \hyperpage{14}
+    \subitem {trim}, \hyperpage{14}
+    \subitem {WHITESPACE}, \hyperpage{15}
+  \item {functions.h}, \hyperpage{15}
+    \subitem {addPassenger}, \hyperpage{16}
+    \subitem {addTicket}, \hyperpage{16}
+    \subitem {deletePassenger}, \hyperpage{17}
+    \subitem {deleteTicket}, \hyperpage{17}
+    \subitem {insertPassenger}, \hyperpage{17}
+    \subitem {makeTXTfile}, \hyperpage{18}
+    \subitem {readTEXTfile}, \hyperpage{18}
+
+  \indexspace
+
+  \item {insertPassenger}
+    \subitem {functions.cpp}, \hyperpage{13}
+    \subitem {functions.h}, \hyperpage{17}
+
+  \indexspace
+
+  \item {ltrim}
+    \subitem {functions.cpp}, \hyperpage{14}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{19}
+  \item {main.cpp}, \hyperpage{18}
+    \subitem {main}, \hyperpage{19}
+  \item {makeTXTfile}
+    \subitem {functions.cpp}, \hyperpage{14}
+    \subitem {functions.h}, \hyperpage{18}
+
+  \indexspace
+
+  \item {name}
+    \subitem {passenger}, \hyperpage{8}
+  \item {next}
+    \subitem {ticket}, \hyperpage{10}
+  \item {nPass}
+    \subitem {ticket}, \hyperpage{10}
+
+  \indexspace
+
+  \item {origin}
+    \subitem {ticket}, \hyperpage{10}
+
+  \indexspace
+
+  \item {passenger}, \hyperpage{7}
+    \subitem {name}, \hyperpage{8}
+    \subitem {pLeft}, \hyperpage{8}
+    \subitem {pRight}, \hyperpage{8}
+    \subitem {seat}, \hyperpage{8}
+  \item {pLeft}
+    \subitem {passenger}, \hyperpage{8}
+  \item {pRight}
+    \subitem {passenger}, \hyperpage{8}
+  \item {printBTree}
+    \subitem {functions.cpp}, \hyperpage{14}
+
+  \indexspace
+
+  \item {readTEXTfile}
+    \subitem {functions.cpp}, \hyperpage{14}
+    \subitem {functions.h}, \hyperpage{18}
+  \item {rtrim}
+    \subitem {functions.cpp}, \hyperpage{14}
+
+  \indexspace
+
+  \item {seat}
+    \subitem {passenger}, \hyperpage{8}
+  \item {structures.h}, \hyperpage{19}
+
+  \indexspace
+
+  \item {ticket}, \hyperpage{9}
+    \subitem {date}, \hyperpage{9}
+    \subitem {flightID}, \hyperpage{9}
+    \subitem {next}, \hyperpage{10}
+    \subitem {nPass}, \hyperpage{10}
+    \subitem {origin}, \hyperpage{10}
+  \item {trim}
+    \subitem {functions.cpp}, \hyperpage{14}
+
+  \indexspace
+
+  \item {WHITESPACE}
+    \subitem {functions.cpp}, \hyperpage{15}
+
+\end{theindex}

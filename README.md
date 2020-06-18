@@ -1,2 +1,1 @@
-# CPlusPlus-training
-C++ training
+Place your project here
